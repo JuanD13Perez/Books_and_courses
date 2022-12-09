@@ -28,6 +28,7 @@ Tenemos información por minuto de:
 * METs
 * Número de pasos
 * Ritmo cardíaco
+
 Información diaria de:
 * Sueño
 * Peso
@@ -75,10 +76,10 @@ En cuanto a los días de la semana no encontramos patrones particulares, solamen
 Ahora bien , que una persona esté más activa, es decir que consuma más calorías, no significa que esté haciendo una rutina de ejercicio.
 Por eso calculamos las rachas de minutos consecutivos que las personasn tenían una intensidad de 2 o 3 (medianamente a altamente axctivos). Consideramos rachas de 30 minutos como una sesión de ejercicio. Estos fueron nuestros descubrimientos:
 
+![ex_per_dow](ex_per_dow.png)
+
 * Claramente, dado que hay más usuarios de la tarde, las horas de más ejercicio fueron las de la tarde. Confirmamos que las horas preferidas para ejercitarse en la tarde son desde las 17:00 hasta las 19:00.
 * Los días que los usarios prefieren hacer ejericio son los primeros días de la semana de trabajo. Se ejercitan menos los viernes y domingos.
-
-![ex_per_dow](ex_per_dow.png)
 
 Invesitgano aún más este aspecto decidimos clasificar a las personas de acuerdo al número de sesiones de más de 30 minutos que tuvieron durante el mes (período de 30 días). 
 * Personas con 15 o más sesiones fueron clasificadas como atléticas.
@@ -89,7 +90,7 @@ Invesitgano aún más este aspecto decidimos clasificar a las personas de acuerd
 La línea de la gráfica del medio indica el umbral de 15 sesiones en un mes que debe superar una persona para considerarse atlética. Hubo alguine con 60 sesiones.
 
 Descubrimos que:
-* El **31%** de los usarios hacen ejercicio constantemente.
+* El **31%** de los usarios hacen ejercicio constantemente. Son atléticos.
 * El **63% son sedentarios**.
 * Validamos nuestra hipótesis de que las horas favoritas para tener actividad para los ususarios de la mañana son las 5:00 y las 9:00, pues éstas horas fueron también las de mayor número de sesiones de ejercicio. También indica que hay súper madrugadores y personas de media mañana dentro de ese grupo del **21%** de usuarios.
 
@@ -112,6 +113,35 @@ Estos fueron nuestros descubrimientos:
 #### Conclusiones A)
 
 Hemos podido identificar usuarios con todo tipo de preferencias: desde mayor actividad en las mañanas o en las tardes, hasta las duraciones preferidas para hacer ejercicio. En términos generales el 63% de los usarios son sedentarios y entre los que se ejercitan la preferencia es hacia sesiones en la tarde de no más de 50 minutos y preferiblemente los días lunes, martes y miércoles. Los domingos son los días más sedentarios para todos los usarios.
+
+#### B) Sueño
+
+Aquí agrupamos diariamente algunas variables de interés:
+
+* La suma total diaria de: METs, Pasos, Ritmo Cardíaco y Calorías.
+* El promedio de la intensidad diario.
+* La cadena de minutos de ejericio más larga por día.
+
+
+No encontramos ninguna relación interesante entre el tiempo de sueño y ninguno de los grupos que hemos identificado. Ni sobre los atléticos o sendentarios, ni sobre las personas más activas en la mañana o sobre las personas más activas en la tarde. En todos las casos la correlación de Pearson fue inferior en valor absoluto a 0.3 con respecto a cada una de las otras variables de interés.
+
+Por otra parte, en cuánto a la diferencia de Tiempo en cama y tiempo de sueño sí notamos diferencias significativas:
+
+![time_needed_sleep](time_needed_sleep.png)
+
+Descubrimos que **Tanto las personas sedentarias como las personas activas en la tarde les toma más tiempo irse a dormir que a las personas atléticas y las personas que realizan la mayor actividad física en las mañanas**
+
+Podemos decir, que para esta muestra particular uno de los beneficios del producto es que ayuda a mejorar los hábitos del sueño cunado se combina con actividad física.
+
+Lo recomendable es tener 8 horas de sueño. Es decir 480 minutos de sueño díarios. Vamos a realizar un conteo de todos los días que los usuarios superan dicha marca.
+
+![over8_count](over8_count.png)
+
+Ahora vemos que los resultados anteriores pueden estar sesgados por el hecho de que las personas atléticas no suelen dormir más de 8 horas. O también puede deberse a que durante la noche las personas se quitan su reloj porque les molesta al dormir. Eso nos sirve de introducción hacia la siguiente pregunta: ¿Qué tanto usan los usuarios sus dispostivos?
+
+
+
+
 
 
 ### Requerimientos
