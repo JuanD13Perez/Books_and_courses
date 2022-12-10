@@ -139,10 +139,17 @@ Lo recomendable es tener 8 horas de sueño. Es decir 480 minutos de sueño díar
 
 Ahora vemos que los resultados anteriores pueden estar sesgados por el hecho de que las personas atléticas no suelen dormir más de 8 horas. O también puede deberse a que durante la noche las personas se quitan su reloj porque les molesta al dormir. Eso nos sirve de introducción hacia la siguiente pregunta: ¿Qué tanto usan los usuarios sus dispostivos?
 
+#### C) Uso dispostivo
+En esta sección consideraremos las cadenas largas donde el ritmo cardiaco marca un valor de cero. Esto significará que la persona se quitó el dispositivo. Consideramos que una persona se quitó el dispositivo en una hora dada si en algún momento de dicha hora su **ritmo cardíaco fue de 0 por al menos 15 minutos consecutivos**.
 
+![Not_use](Not_use.png)
 
+Hemos descubierto que:
 
-
+* **20%** del tiempo en horas de la noche y de la mañana los usuarios simplemente no usaron su dispositivo.
+* **2 de 6 usuarios atléticos** tuvieron un uso del dispositvo **inferior al 60% de todas las horas posible**. Es posible que éstos usuarios solo usen el dispositivo para sus sesiones de entrenamiento. En particular el usuario de preferencia de sesiones largas, usó su dispositvo solamente el 60% del tiempo.
+* Confirmamos nuestra hipótesis de que las personas atléticas también tienden a quitarse el dispositivo de noche.
+* Es evidente que 5 de los 19 usuarios, es decir **un 26% no llegan a usar el dispositvo un 60% del tiempo.**
 
 ### Requerimientos
  * Descargar el dataset desde [Kaggle Fit Bit](https://www.kaggle.com/datasets/arashnic/fitbit)
