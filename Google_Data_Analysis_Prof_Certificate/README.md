@@ -65,7 +65,7 @@ However, when looking at the trimmed mean we see that the values ​​are close
 
 Given the above, we decided to classify users according to their most active hours during the month.
 
-![class_hours](Class_hours.png)
+![class_hours](Clas_horas.png)
 
 - **21%** of users are **more active in the morning** (i.e. before 11:00 a.m.)
 - **31%** are **mixed**. That is, they have at least one active hour before 11 but no more than 2.
@@ -101,7 +101,7 @@ We discovered that:
 Investigating the exercise patterns further, we asked ourselves: **Do they prefer long sessions of exercise or short sessions**? this could be an indicator of whether someone prefers to do cardio, (marathon type training) or prefers to exercise with weights.
 
 For example, it is clear that the following users have different patterns:
-![example_long](example_long.png)
+![example_long](ejemplo_largas.png)
 
 The one on the left prefers long sessions and the one on the right medium sessions. So we decided to further classify athletic people:
 
@@ -110,7 +110,7 @@ The one on the left prefers long sessions and the one on the right medium sessio
 * A percentage greater than 60% of sessions of less than 50 minutes, preferably short sessions.
 
 These were our discoveries:
-![sessions_pref](sessions_pref.png)
+![sessions_pref](pref_sesiones.png)
 
 * Within athletic users **66%** prefer short sessions.
 
